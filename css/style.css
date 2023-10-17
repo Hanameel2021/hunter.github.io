@@ -1,0 +1,135 @@
+*{
+
+padding: 0;
+
+margin: 0;
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+
+
+body{
+
+background-color: rgb(24, 24, 26);
+font-family: 'Bebas Neue', cursive !important;
+
+margin: auto;
+text-align: center;
+
+}
+
+body::-webkit-scrollbar{
+
+width: 10px;
+background: rgb(97, 97, 97) !important;
+
+}
+
+body::-webkit-scrollbar-thumb {
+
+    background: rgb(143, 24, 24) !important;
+    height: 10vh;
+    border-radius: 30px;
+    
+    }
+
+
+
+h1{
+margin: auto;
+background-color: rgb(15, 15, 99) !important;
+color: white !important;
+width: 20%;
+border-radius: 40px;
+border: 2px solid rgb(27, 248, 94) !important;
+}
+
+h2{
+
+color: red;
+
+}
+
+span{
+
+color: rgb(0, 255, 64);
+
+}
+
+
+.container{
+
+display: grid !important;
+
+grid-gap: 15px !important;
+
+grid-template-columns:repeat(4, 1fr) !important;
+grid-template-rows: repeat(3,1fr) !important;
+
+text-align: center !important;
+
+transition: transform 20s ease-out !important;
+}
+
+img{
+
+    width: 20vw !important;
+    
+    height: 28vw !important;
+    
+    background-size: cover;
+    
+    box-shadow: 0px 0px 4px rgb(248, 245, 245) !important;
+    
+    border-radius: 7px !important;
+
+    transition: transform 0.3s ease-out !important;
+    
+    }
+
+
+img:hover{
+
+
+width: 22vw !important;
+
+transform: translateY(8px) !important;
+
+
+}
+
+    h4{
+
+        color: white !important;
+        
+        }
+
+        h4:hover{
+
+            color: red !important;
+   
+           }
+        
+        a{
+        
+        color: rgb(0, 255, 64) !important;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        
+        }
+
+        a:hover{
+
+        color: red !important;
+
+        }
+
+footer{
+
+
+text-align: center;
+margin: auto;
+
+}
